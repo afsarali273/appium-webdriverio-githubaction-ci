@@ -1,0 +1,156 @@
+2023-04-15 06:54:58:021 [Appium] Welcome to Appium v1.15.1
+2023-04-15 06:54:58:023 [Appium] Non-default server args:
+2023-04-15 06:54:58:023 [Appium]   address: localhost
+2023-04-15 06:54:58:023 [Appium]   basePath: /
+2023-04-15 06:54:58:024 [Appium]   logFile: ./appium.log
+2023-04-15 06:54:58:024 [Appium]   relaxedSecurityEnabled: true
+2023-04-15 06:54:58:074 [Appium] Appium REST http interface listener started on localhost:4723
+2023-04-15 06:54:59:937 [HTTP] --> POST /session
+2023-04-15 06:54:59:938 [HTTP] {"capabilities":{"alwaysMatch":{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"8.1.0","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:app":"/Users/mdafsarali/POC/appium-webdriverio-githubaction-ci/app/Android-NativeDemoApp.apk","appium:appWaitActivity":"com.wdiodemoapp.MainActivity","appium:newCommandTimeout":240},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"8.1.0","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:app":"/Users/mdafsarali/POC/appium-webdriverio-githubaction-ci/app/Android-NativeDemoApp.apk","appium:appWaitActivity":"com.wdiodemoapp.MainActivity","appium:newCommandTimeout":240}}
+2023-04-15 06:54:59:939 [W3C] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"8.1.0","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:app":"/Users/mdafsarali/POC/appium-webdriverio-githubaction-ci/app/Android-NativeDemoApp.apk","appium:appWaitActivity":"com.wdiodemoapp.MainActivity","appium:newCommandTimeout":240},null,{"alwaysMatch":{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"8.1.0","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:app":"/Users/mdafsarali/POC/appium-webdriverio-githubaction-ci/app/Android-NativeDemoApp.apk","appium:appWaitActivity":"com.wdiodemoapp.MainActivity","appium:newCommandTimeout":240},"firstMatch":[{}]}]
+2023-04-15 06:54:59:940 [BaseDriver] Event 'newSessionRequested' logged at 1681541699939 (14:54:59 GMT+0800 (Singapore Standard Time))
+2023-04-15 06:55:00:209 [Appium] Appium v1.15.1 creating new AndroidUiautomator2Driver (v1.37.2) session
+2023-04-15 06:55:00:210 [Appium] Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+2023-04-15 06:55:00:211 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2023-04-15 06:55:00:211 [BaseDriver] Creating session with W3C capabilities: {
+2023-04-15 06:55:00:211 [BaseDriver]   "alwaysMatch": {
+2023-04-15 06:55:00:212 [BaseDriver]     "platformName": "Android",
+2023-04-15 06:55:00:212 [BaseDriver]     "appium:deviceName": "emulator-5554",
+2023-04-15 06:55:00:212 [BaseDriver]     "appium:platformVersion": "8.1.0",
+2023-04-15 06:55:00:212 [BaseDriver]     "appium:orientation": "PORTRAIT",
+2023-04-15 06:55:00:212 [BaseDriver]     "appium:automationName": "UiAutomator2",
+2023-04-15 06:55:00:212 [BaseDriver]     "appium:app": "/Users/mdafsarali/POC/appium-webdriverio-githubaction-ci/app/Android-NativeDemoApp.apk",
+2023-04-15 06:55:00:212 [BaseDriver]     "appium:appWaitActivity": "com.wdiodemoapp.MainActivity",
+2023-04-15 06:55:00:213 [BaseDriver]     "appium:newCommandTimeout": 240
+2023-04-15 06:55:00:213 [BaseDriver]   },
+2023-04-15 06:55:00:213 [BaseDriver]   "firstMatch": [
+2023-04-15 06:55:00:213 [BaseDriver]     {}
+2023-04-15 06:55:00:213 [BaseDriver]   ]
+2023-04-15 06:55:00:213 [BaseDriver] }
+2023-04-15 06:55:00:218 [BaseDriver] Session created with session id: e62bd023-5c0a-4acd-9346-ed0112367da0
+2023-04-15 06:55:00:222 [BaseDriver] Using local app '/Users/mdafsarali/POC/appium-webdriverio-githubaction-ci/app/Android-NativeDemoApp.apk'
+2023-04-15 06:55:00:222 [UiAutomator2] Checking whether app is actually present
+2023-04-15 06:55:00:246 [ADB] Found 6 'build-tools' folders under '/Users/mdafsarali/Library/Android/sdk' (newest first):
+2023-04-15 06:55:00:246 [ADB]     /Users/mdafsarali/Library/Android/sdk/build-tools/29.0.0
+2023-04-15 06:55:00:246 [ADB]     /Users/mdafsarali/Library/Android/sdk/build-tools/28.0.3
+2023-04-15 06:55:00:246 [ADB]     /Users/mdafsarali/Library/Android/sdk/build-tools/28.0.2
+2023-04-15 06:55:00:246 [ADB]     /Users/mdafsarali/Library/Android/sdk/build-tools/26.0.2
+2023-04-15 06:55:00:246 [ADB]     /Users/mdafsarali/Library/Android/sdk/build-tools/26.0.1
+2023-04-15 06:55:00:246 [ADB]     /Users/mdafsarali/Library/Android/sdk/build-tools/23.0.1
+2023-04-15 06:55:00:247 [ADB] Using 'adb' from '/Users/mdafsarali/Library/Android/sdk/platform-tools/adb'
+2023-04-15 06:55:00:247 [AndroidDriver] Retrieving device list
+2023-04-15 06:55:00:247 [ADB] Trying to find a connected android device
+2023-04-15 06:55:00:248 [ADB] Getting connected devices...
+2023-04-15 06:55:00:282 [ADB] No connected devices have been detected
+2023-04-15 06:55:00:282 [ADB] Could not find devices, restarting adb server...
+2023-04-15 06:55:00:282 [ADB] Restarting adb
+2023-04-15 06:55:00:283 [ADB] Killing adb server on port 5037
+2023-04-15 06:55:00:283 [ADB] Running '/Users/mdafsarali/Library/Android/sdk/platform-tools/adb -P 5037 kill-server'
+2023-04-15 06:55:00:499 [ADB] Getting connected devices...
+2023-04-15 06:55:03:640 [ADB] No connected devices have been detected
+2023-04-15 06:55:03:640 [ADB] Could not find devices, restarting adb server...
+2023-04-15 06:55:03:640 [ADB] Restarting adb
+2023-04-15 06:55:03:640 [ADB] Killing adb server on port 5037
+2023-04-15 06:55:03:640 [ADB] Running '/Users/mdafsarali/Library/Android/sdk/platform-tools/adb -P 5037 kill-server'
+2023-04-15 06:55:03:853 [ADB] Getting connected devices...
+2023-04-15 06:55:06:982 [ADB] No connected devices have been detected
+2023-04-15 06:55:06:982 [ADB] Could not find devices, restarting adb server...
+2023-04-15 06:55:06:983 [ADB] Restarting adb
+2023-04-15 06:55:06:983 [ADB] Killing adb server on port 5037
+2023-04-15 06:55:06:983 [ADB] Running '/Users/mdafsarali/Library/Android/sdk/platform-tools/adb -P 5037 kill-server'
+2023-04-15 06:55:07:201 [ADB] Getting connected devices...
+2023-04-15 06:55:10:351 [ADB] No connected devices have been detected
+2023-04-15 06:55:10:351 [ADB] Could not find devices, restarting adb server...
+2023-04-15 06:55:10:352 [ADB] Restarting adb
+2023-04-15 06:55:10:352 [ADB] Killing adb server on port 5037
+2023-04-15 06:55:10:352 [ADB] Running '/Users/mdafsarali/Library/Android/sdk/platform-tools/adb -P 5037 kill-server'
+2023-04-15 06:55:10:581 [ADB] Getting connected devices...
+2023-04-15 06:55:13:721 [ADB] No connected devices have been detected
+2023-04-15 06:55:13:721 [ADB] Could not find devices, restarting adb server...
+2023-04-15 06:55:13:721 [ADB] Restarting adb
+2023-04-15 06:55:13:721 [ADB] Killing adb server on port 5037
+2023-04-15 06:55:13:722 [ADB] Running '/Users/mdafsarali/Library/Android/sdk/platform-tools/adb -P 5037 kill-server'
+2023-04-15 06:55:13:942 [ADB] Getting connected devices...
+2023-04-15 06:55:17:101 [ADB] No connected devices have been detected
+2023-04-15 06:55:17:101 [ADB] Could not find devices, restarting adb server...
+2023-04-15 06:55:17:101 [ADB] Restarting adb
+2023-04-15 06:55:17:101 [ADB] Killing adb server on port 5037
+2023-04-15 06:55:17:101 [ADB] Running '/Users/mdafsarali/Library/Android/sdk/platform-tools/adb -P 5037 kill-server'
+2023-04-15 06:55:17:357 [ADB] Getting connected devices...
+2023-04-15 06:55:20:513 [ADB] No connected devices have been detected
+2023-04-15 06:55:20:514 [ADB] Could not find devices, restarting adb server...
+2023-04-15 06:55:20:514 [ADB] Restarting adb
+2023-04-15 06:55:20:514 [ADB] Killing adb server on port 5037
+2023-04-15 06:55:20:514 [ADB] Running '/Users/mdafsarali/Library/Android/sdk/platform-tools/adb -P 5037 kill-server'
+2023-04-15 06:55:20:748 [ADB] Could not find devices, restarting adb server...
+2023-04-15 06:55:20:748 [ADB] Restarting adb
+2023-04-15 06:55:20:749 [ADB] Killing adb server on port 5037
+2023-04-15 06:55:20:749 [ADB] Running '/Users/mdafsarali/Library/Android/sdk/platform-tools/adb -P 5037 kill-server'
+2023-04-15 06:55:20:974 [ADB] Could not find devices, restarting adb server...
+2023-04-15 06:55:20:975 [ADB] Restarting adb
+2023-04-15 06:55:20:976 [ADB] Killing adb server on port 5037
+2023-04-15 06:55:20:977 [ADB] Running '/Users/mdafsarali/Library/Android/sdk/platform-tools/adb -P 5037 kill-server'
+2023-04-15 06:55:21:318 [ADB] Could not find devices, restarting adb server...
+2023-04-15 06:55:21:319 [ADB] Restarting adb
+2023-04-15 06:55:21:319 [ADB] Killing adb server on port 5037
+2023-04-15 06:55:21:321 [ADB] Running '/Users/mdafsarali/Library/Android/sdk/platform-tools/adb -P 5037 kill-server'
+2023-04-15 06:55:21:576 [ADB] Could not find devices, restarting adb server...
+2023-04-15 06:55:21:577 [ADB] Restarting adb
+2023-04-15 06:55:21:578 [ADB] Killing adb server on port 5037
+2023-04-15 06:55:21:579 [ADB] Running '/Users/mdafsarali/Library/Android/sdk/platform-tools/adb -P 5037 kill-server'
+2023-04-15 06:55:21:812 [ADB] Could not find devices, restarting adb server...
+2023-04-15 06:55:21:812 [ADB] Restarting adb
+2023-04-15 06:55:21:812 [ADB] Killing adb server on port 5037
+2023-04-15 06:55:21:813 [ADB] Running '/Users/mdafsarali/Library/Android/sdk/platform-tools/adb -P 5037 kill-server'
+2023-04-15 06:55:22:033 [ADB] Could not find devices, restarting adb server...
+2023-04-15 06:55:22:033 [ADB] Restarting adb
+2023-04-15 06:55:22:033 [ADB] Killing adb server on port 5037
+2023-04-15 06:55:22:033 [ADB] Running '/Users/mdafsarali/Library/Android/sdk/platform-tools/adb -P 5037 kill-server'
+2023-04-15 06:55:22:247 [ADB] Could not find devices, restarting adb server...
+2023-04-15 06:55:22:248 [ADB] Restarting adb
+2023-04-15 06:55:22:250 [ADB] Killing adb server on port 5037
+2023-04-15 06:55:22:250 [ADB] Running '/Users/mdafsarali/Library/Android/sdk/platform-tools/adb -P 5037 kill-server'
+2023-04-15 06:55:22:472 [UiAutomator2] Deleting UiAutomator2 session
+2023-04-15 06:55:22:473 [BaseDriver] Event 'newSessionStarted' logged at 1681541722473 (14:55:22 GMT+0800 (Singapore Standard Time))
+2023-04-15 06:55:22:503 [W3C] Encountered internal error running command: Error: Could not find a connected Android device.
+2023-04-15 06:55:22:503 [W3C]     at getDevices (/usr/local/lib/node_modules/appium/node_modules/appium-adb/build/lib/tools/lib/tools/system-calls.js:203:13)
+2023-04-15 06:55:22:504 [W3C]     at getDevices (/usr/local/lib/node_modules/appium/node_modules/appium-adb/build/lib/tools/lib/tools/system-calls.js:220:20)
+2023-04-15 06:55:22:505 [W3C]     at async ADB.getDevicesWithRetry (/usr/local/lib/node_modules/appium/node_modules/appium-adb/build/lib/tools/lib/tools/system-calls.js:223:10)
+2023-04-15 06:55:22:505 [W3C]     at async Object.getDeviceInfoFromCaps (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/build/lib/lib/android-helpers.js:195:19)
+2023-04-15 06:55:22:505 [W3C]     at async AndroidUiautomator2Driver.startUiAutomator2Session (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/build/lib/lib/driver.js:264:26)
+2023-04-15 06:55:22:505 [W3C]     at async AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/build/lib/lib/driver.js:211:7)
+2023-04-15 06:55:22:505 [W3C]     at async AppiumDriver.createSession (/usr/local/lib/node_modules/appium/build/lib/lib/appium.js:353:35)
+2023-04-15 06:55:22:505 [W3C]     at async AppiumDriver.executeCommand (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/build/lib/basedriver/lib/basedriver/driver.js:376:13)
+2023-04-15 06:55:22:505 [W3C]     at async AppiumDriver.executeCommand (/usr/local/lib/node_modules/appium/build/lib/lib/appium.js:482:14)
+2023-04-15 06:55:22:505 [W3C]     at async asyncHandler (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/build/lib/protocol/lib/protocol/protocol.js:306:21)
+2023-04-15 06:55:22:513 [HTTP] <-- POST /session 500 22574 ms - 619
+2023-04-15 06:55:22:513 [HTTP] 
+2023-04-15 06:55:22:529 [HTTP] --> POST /session
+2023-04-15 06:55:22:529 [HTTP] {"capabilities":{"alwaysMatch":{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"8.1.0","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:app":"/Users/mdafsarali/POC/appium-webdriverio-githubaction-ci/app/Android-NativeDemoApp.apk","appium:appWaitActivity":"com.wdiodemoapp.MainActivity","appium:newCommandTimeout":240},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"8.1.0","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:app":"/Users/mdafsarali/POC/appium-webdriverio-githubaction-ci/app/Android-NativeDemoApp.apk","appium:appWaitActivity":"com.wdiodemoapp.MainActivity","appium:newCommandTimeout":240}}
+2023-04-15 06:55:22:530 [W3C] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"8.1.0","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:app":"/Users/mdafsarali/POC/appium-webdriverio-githubaction-ci/app/Android-NativeDemoApp.apk","appium:appWaitActivity":"com.wdiodemoapp.MainActivity","appium:newCommandTimeout":240},null,{"alwaysMatch":{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"8.1.0","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:app":"/Users/mdafsarali/POC/appium-webdriverio-githubaction-ci/app/Android-NativeDemoApp.apk","appium:appWaitActivity":"com.wdiodemoapp.MainActivity","appium:newCommandTimeout":240},"firstMatch":[{}]}]
+2023-04-15 06:55:22:530 [BaseDriver] Event 'newSessionRequested' logged at 1681541722530 (14:55:22 GMT+0800 (Singapore Standard Time))
+2023-04-15 06:55:22:531 [Appium] Appium v1.15.1 creating new AndroidUiautomator2Driver (v1.37.2) session
+2023-04-15 06:55:22:532 [Appium] Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+2023-04-15 06:55:22:532 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2023-04-15 06:55:22:533 [BaseDriver] Creating session with W3C capabilities: {
+2023-04-15 06:55:22:533 [BaseDriver]   "alwaysMatch": {
+2023-04-15 06:55:22:533 [BaseDriver]     "platformName": "Android",
+2023-04-15 06:55:22:533 [BaseDriver]     "appium:deviceName": "emulator-5554",
+2023-04-15 06:55:22:533 [BaseDriver]     "appium:platformVersion": "8.1.0",
+2023-04-15 06:55:22:533 [BaseDriver]     "appium:orientation": "PORTRAIT",
+2023-04-15 06:55:22:533 [BaseDriver]     "appium:automationName": "UiAutomator2",
+2023-04-15 06:55:22:533 [BaseDriver]     "appium:app": "/Users/mdafsarali/POC/appium-webdriverio-githubaction-ci/app/Android-NativeDemoApp.apk",
+2023-04-15 06:55:22:534 [BaseDriver]     "appium:appWaitActivity": "com.wdiodemoapp.MainActivity",
+2023-04-15 06:55:22:534 [BaseDriver]     "appium:newCommandTimeout": 240
+2023-04-15 06:55:22:534 [BaseDriver]   },
+2023-04-15 06:55:22:534 [BaseDriver]   "firstMatch": [
+2023-04-15 06:55:22:534 [BaseDriver]     {}
+2023-04-15 06:55:22:534 [BaseDriver]   ]
+2023-04-15 06:55:22:534 [BaseDriver] }
+2023-04-15 06:55:22:539 [BaseDriver] Session created with session id: 7a8c1fbe-329a-46c8-8a95-e7279b0768e8
+2023-04-15 06:55:22:540 [BaseDriver] Using local app '/Users/mdafsarali/POC/appium-webdriverio-githubaction-ci/app/Android-NativeDemoApp.apk'
+2023-04-15 06:55:22:540 [UiAutomator2] Checking whether app is actually present
+2023-04-15 06:55:22:541 [ADB] Using 'adb' from '/Users/mdafsarali/Library/Android/sdk/platform-tools/adb'
+2023-04-15 06:55:22:541 [AndroidDriver] Retrieving device list
+2023-04-15 06:55:22:542 [ADB] Trying to find a connected android device
+2023-04-15 06:55:22:542 [ADB] Getting connected devices...
