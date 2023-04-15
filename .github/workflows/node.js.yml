@@ -20,8 +20,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Install and Run Appium Server
-        uses: moatazeldebsy/appium-server-gitHub-action@V1.0.4
+      - name: run tests
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 29
+          script: ./gradlew connectedCheck
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
